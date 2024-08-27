@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel = "stylesheet" href = "style_encriptador.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class = "logo_alura" src = "./images/logo_alura.png" alt = "Logo de Alura">
+    </header>
+    <main>
+        <section class = "seccion_texto_recibido">
+            <div class = "texto_a_encriptar">
+                <textarea placeholder = "Ingresa el texto aqui" class = "espacio_texto"></textarea> </textarea>
+            </div>
+            <div class = "alerta">
+                <img src = "./images/logo_info.png" alt = "Logo de informacion">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class = "botones_encriptar_y_desencriptar">
+                <input type = "button" class = "boton_encriptar" value = "Encriptar">
+                <input type = "button" class = "boton_desencriptar" value = "Desencriptar">
+            </div>
+        </section>
+        <section class = "seccion_texto_modificado">
+            <div class = "contenedor_imagen_munieco" >
+                <img src = "./images/Muñeco.png" alt = "Muñeco encriptador de texto">
+            </div>
+            <div class = contenido_informativo>
+                <h3>Ningún mensaje fue encontrado.</h3> 
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class = "copiar_texto">
+                <input type = "button" class = "boton_copiar" value = "Copiar">
+            </div>
+            <div class = "contenedor_texto_modificado">
+                <p class = "texto_modificado"></p>
+            </div>
+        </section>
+    </main>
+    <script src = "script_encriptador.js"></script>
+    <footer class = "pie_de_pagina">
+        <p>Hecho por Julian Gines, Agosto 2024</p>
+    </footer>
+</body>
+</html>
